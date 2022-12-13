@@ -1,0 +1,21 @@
+{
+    "name": "jawe09/symfony-acumba-mailer",
+    "description": "symfony-acumba-mail-bridge",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jan Weißsieker",
+            "email": "jan@weisssieker.de"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "symfony/mailer": "^5.4|^6.0"
+    },
+    "require-dev": {
+        "symfony/http-client": "^5.4|^6.0"
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
