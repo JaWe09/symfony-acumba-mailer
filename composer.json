@@ -17,5 +17,8 @@
         "symfony/http-client": "^5.4|^6.0"
     },
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": { "Symfony\\Component\\Mailer\\Bridge\\AcumbaMail\\": "" }
+    }
 }
